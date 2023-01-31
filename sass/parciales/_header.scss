@@ -1,0 +1,25 @@
+.header{
+    background-color: lightpink;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logocontenedor {
+        background-color: deeppink;
+    
+    }
+    &__anchor--activo{
+        background-color: rgb(226, 171, 171);
+        }
+        &__anchor{
+            background-color:rgb(255, 55, 161);
+            color: black;
+            font-size: 1.2rem;
+            gap: 0.5rem;
+            }
+            li.header__item {
+                display: inline-block
+            }
+
+
+}

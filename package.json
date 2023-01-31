@@ -1,0 +1,25 @@
+{
+  "name": "acf22",
+  "version": "1.0.0",
+  "description": "compilar scss  a css ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonella-Mangiapani/acfmendoza.git"
+  },
+  "author": "Antonella- Mangiapani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antonella-Mangiapani/acfmendoza/issues"
+  },
+  "homepage": "https://github.com/Antonella-Mangiapani/acfmendoza#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
