@@ -14,9 +14,14 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-
+.header__contacto{
+    background-color: lightpink;
+}
 .header__logocontenedor{
     background-color: deeppink;
+}
+.body__contacto{
+    background-color: lightpink;
 }
 
 h1{
@@ -30,6 +35,8 @@ h2{
     color: magenta;
     font-size: 1.5rem;
     padding: 3rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .hero_contenedor{
@@ -69,7 +76,9 @@ background-color: rgb(226, 171, 171);
     color: black;
     font-size: 1.2rem;
     gap: 0.5rem;
+    border-bottom: 1rem;
 }
+
 li.header__item {
     display: inline-block
 }
@@ -102,18 +111,32 @@ form {
 }
 h3 {
 margin: 1rem;
+font-family: Arial, Helvetica, sans-serif;
 }
 p.foo {
     margin: 1rem;
     font-style: italic;
+    color: black;
+}
+.body__equipo{
+    background-color: lightpink;
+}
+.body__redes{
+    background-color: lightpink;
+}
+.body__ventas{
+    background-color: lightpink;
 }
 h4 {
     margin: 1rem;
+    text-align: center;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
-fieldset {
+.fieldset {
     display: flex;
     gap: 1rem;
-    align-items: end;
+    
 }
 input[type="submit"] {
     background-color: lightpink;
@@ -132,7 +155,7 @@ input[type="submit"] {
     padding: 1rem;
 }
 .futer{
-    background-color: deeppink;
+    background-color: lightpink;
 }
 .mein img{
     width: 100%;
@@ -154,8 +177,24 @@ input[type="submit"] {
         padding: 1rem;
     }
    
- .parrafo__skin{
-        margin: 5rem;
+ .parrafo__productos{
+        margin: 2rem;
+        font-size: 1.10rem;
+        font-style: italic;
+        text-align: center;
+    
+ }
+ .parrafo__skincare{
+        margin: 2rem;
+        font-size: 1.10rem;
+        font-style: italic;
+        text-align: center;
+ }
+ .parrafo__mascarillas{
+    margin: 2rem;
+    font-size: 1.10rem;
+    font-style: italic;
+    text-align: center;
  }
     /*MEDIA QUERIES*/
     @media screen and (min-width 1024px){
