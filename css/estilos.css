@@ -127,6 +127,12 @@ p.foo {
 .body__ventas{
     background-color: lightpink;
 }
+.body__contactos{
+    background-color: lightpink;
+}
+.header__productos{
+    background-color: lightpink;
+}
 h4 {
     margin: 1rem;
     text-align: center;
@@ -230,3 +236,5 @@ section.Informacion {
 section.Informaciondos {
     flex-direction: column;
 }
+
+
