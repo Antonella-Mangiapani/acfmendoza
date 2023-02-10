@@ -84,3 +84,43 @@ h4 {
   border: outset;
   border-color: darkgreen;
   border-radius: 5px; }
+
+.body__contacto {
+  background-color: lightpink; }
+
+.body__equipo {
+  background-color: lightpink; }
+
+.body__redes {
+  background-color: lightpink; }
+
+.body__ventas {
+  background-color: lightpink; }
+
+.parrafo__productos {
+  margin: 2rem;
+  font-size: 1.10rem;
+  font-style: italic;
+  text-align: center; }
+
+.parrafo__skincare {
+  margin: 2rem;
+  font-size: 1.10rem;
+  font-style: italic;
+  text-align: center; }
+
+.parrafo__mascarillas {
+  margin: 2rem;
+  font-size: 1.10rem;
+  font-style: italic;
+  text-align: center; }
+
+fieldset {
+  display: flex;
+  gap: 1rem; }
+
+.fielsetcontacto {
+  flex-direction: column; }
+
+.fieldset__ventas {
+  flex-direction: column; }
