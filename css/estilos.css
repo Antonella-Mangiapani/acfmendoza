@@ -10,7 +10,7 @@ section.hero {
     background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    overflow: hidden;
 }
 
 .header{
@@ -68,8 +68,10 @@ background-color: rgb(226, 171, 171);
     font-family: Arial, Helvetica, sans-serif;
     margin: 1rem;
     display: inline-block;
-    border: outset; border-color: deeppink;
+    border: outset; 
+    border-color: deeppink;
     border-radius: 5px;
+    
 }
 .ejemplo__u{
     background-color: chartreuse;
@@ -77,7 +79,8 @@ background-color: rgb(226, 171, 171);
     font-family: Arial, Helvetica, sans-serif;
     margin: 1rem;
     display: inline-block;
-    border: outset; border-color: darkgreen;
+    border: outset;
+     border-color: darkgreen;
     border-radius: 5px;
 }
 .header__anchor{
@@ -95,14 +98,16 @@ input[type="submit"] {
     background-color: lightpink;
     border-radius: 5px;
 }
-section.Informacion {
+.Informacion {
     display: flex;
     padding: 3rem 3rem;
     gap: 30px;
     align-items: center;
     background-color: lightpink;
+    overflow: hidden;
+
 }
-section.Informaciondos{
+.Informaciondos{
     display: flex;
     padding: 3rem 3rem;
     gap: 30px;
@@ -110,7 +115,7 @@ section.Informaciondos{
     background-color: lightpink;
 }
 
-form {
+.form {
     font-style: italic;
     display: flex;
     gap: 1rem;
@@ -160,8 +165,7 @@ h4 {
 input[type="submit"] {
     background-color: lightpink;
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
+   
 }
 .contenedor__universal{
     display: grid;
@@ -184,12 +188,6 @@ input[type="submit"] {
     gap: 20px;
     flex-direction: column;
 
-    }
-    .mein img {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        margin: 5rem;
     }
     .footer__pie{
         background-color: lightcoral;
@@ -251,15 +249,16 @@ input[type="submit"] {
         flex-direction: column;
     }
     }
-    
+    .form{
+        height: auto;
+        flex-direction: column;
+    }
 
 
     .contenedor__mein {
         flex-direction: column;
 }
-.form{
-    flex-direction: column;
-}
+
 .fielsetcontacto {
         display: flex;
         margin: 2rem;
@@ -281,4 +280,11 @@ section.Informacion {
 section.Informaciondos {
     flex-direction: column;
 }
-
+.carousel{
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    
+}
