@@ -71,6 +71,7 @@ background-color: rgb(226, 171, 171);
     border: outset; 
     border-color: deeppink;
     border-radius: 5px;
+    padding: 1rem;
     
 }
 .ejemplo__u{
@@ -82,6 +83,7 @@ background-color: rgb(226, 171, 171);
     border: outset;
      border-color: darkgreen;
     border-radius: 5px;
+    padding: 1rem;
 }
 .header__anchor{
     background-color:rgb(255, 55, 161);
@@ -181,14 +183,13 @@ input[type="submit"] {
     background-color: lightpink;
 }
 .mein img{
-    width: 100%;
+    width: 60%;
 }
 .contenedor__mein {
     display: flex;
     gap: 20px;
     flex-direction: column;
-
-    }
+ }
     .footer__pie{
         background-color: lightcoral;
         padding: 1rem;
@@ -286,5 +287,66 @@ section.Informaciondos {
     overflow: hidden;
     display: grid;
     align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer__equipo{
+    background-color: lightcoral;
+    padding: 1rem;
+    text-align: center;
+    }
+
+.footer__redes{
+    background-color: lightcoral;
+    padding: 1rem;
+    text-align: center;
+}
+.footer__ventas{
+    background-color: lightcoral;
+    padding: 1rem;
+    text-align: center;
+}
+.parrafo__contacto{
+    color: black;
+    background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.imagen__ig{
+    width: 5%;
+    
     
 }
+.imagen__what{
+    width: 5%;
+    
+}
+
+.Imagen__pad{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    margin: 8rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+img.rounded.float-start{
+    width: 8%;
+}
+img.rounded.float-end{
+    width: 8%;
+}
+
+
+
+width: 80%;
+display: flex;
+flex-direction: column;
+margin: 5rem;
+background-color: lightcoral;
+padding: 1rem;
+text-align: center;
