@@ -134,6 +134,7 @@ p.foo {
     margin: 1rem;
     font-style: italic;
     color: black;
+    background-color: lightcoral;
 }
 .body__equipo{
     background-color: lightpink;
