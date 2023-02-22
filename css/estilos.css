@@ -185,6 +185,9 @@ input[type="submit"] {
 }
 .mein img{
     width: 60%;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .contenedor__mein {
     display: flex;
@@ -270,7 +273,7 @@ input[type="submit"] {
     
 }
 .fieldset__ventas{
-        display: flex;
+        
         margin: 2rem;
         gap: 1rem;
         text-align: center;
@@ -290,6 +293,9 @@ section.Informaciondos {
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .footer__equipo{
     background-color: lightcoral;
@@ -341,6 +347,11 @@ img.rounded.float-start{
 img.rounded.float-end{
     width: 8%;
 }
-
-
+.imagen__delivery{
+    width: 10%;
+}
+.ul__productos {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
