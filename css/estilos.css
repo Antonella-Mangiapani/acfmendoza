@@ -20,15 +20,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.header__contacto{
-    background-color: lightpink;
-}
+
 .header__logocontenedor{
     background-color: deeppink;
 }
-.body__contacto{
-    background-color: lightpink;
-}
+
 
 h1{
     color: black;
@@ -136,20 +132,9 @@ p.foo {
     color: black;
     background-color: lightcoral;
 }
-.body__equipo{
-    background-color: lightpink;
-}
-.body__redes{
-    background-color: lightpink;
-}
-.body__ventas{
-    background-color: lightpink;
-}
-.body__contactos{
-    background-color: lightpink;
-}
-.header__productos{
-    background-color: lightpink;
+.body {
+ background-color: lightpink
+        
 }
 h4 {
     margin: 1rem;
@@ -333,13 +318,10 @@ section.Informaciondos {
 }
 
 .Imagen__pad{
-    width: 30%;
-    display:flex;
-    flex-direction: column;
-    margin: 8rem;
-    padding: 1rem;
-    text-align: center;
-    justify-content: center;
+    
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 img.rounded.float-start{
     width: 8%;
@@ -354,4 +336,42 @@ img.rounded.float-end{
     margin-top: 0;
     margin-bottom: 0;
 }
-
+.header__contacto{
+    background-color: lightpink;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__equipo{
+    background-color: lightpink;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__productos{
+    background-color: lightpink;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__redes{
+    background-color: lightpink;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__ventas{
+    background-color: lightpink;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo__contacto{
+display: flex;
+justify-content: left;
+}
