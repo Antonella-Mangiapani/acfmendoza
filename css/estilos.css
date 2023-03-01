@@ -125,6 +125,8 @@ input[type="submit"] {
 h3 {
 margin: 1rem;
 font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: lightcoral;
 }
 p.foo {
     margin: 1rem;
@@ -133,15 +135,14 @@ p.foo {
     background-color: lightcoral;
 }
 .body {
- background-color: lightpink
+ background-color: lightpink;
         
 }
 h4 {
-    margin: 1rem;
     text-align: center;
-    margin: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    background-color: lightcoral;
 }
 .fieldset {
     display: flex;
@@ -179,11 +180,6 @@ input[type="submit"] {
     gap: 20px;
     flex-direction: column;
  }
-    .footer__pie{
-        background-color: lightcoral;
-        padding: 1rem;
-        text-align: center;
-    }
    
  .parrafo__productos{
         margin: 2rem;
@@ -204,16 +200,14 @@ input[type="submit"] {
     font-style: italic;
     text-align: center;
  }
- .footer__contacto{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: 5rem;
- }
+ 
+
+ 
     /*MEDIA QUERIES*/
     @media screen and (min-width 1024px){
         
     }
+
     @media screen and (max-width: 768px ){
     .header{
         flex-direction: column;
@@ -226,9 +220,18 @@ input[type="submit"] {
         flex-direction: column;
     }
     }
+
     @media screen and (max-width: 320px){
     .header{
         height: auto;
+    }
+    .nav {
+        height: auto;
+        flex-direction: column; 
+    }
+    .Redes__cont {
+        height: auto;
+        flex-direction: column;
     }
     .fieldset__ventas{
         height: auto;
@@ -244,13 +247,13 @@ input[type="submit"] {
         flex-direction: column;
     }
 
-
     .contenedor__mein {
         flex-direction: column;
+    
+
 }
 
 .fielsetcontacto {
-        display: flex;
         margin: 2rem;
         gap: 1rem;
         text-align: center;
@@ -258,10 +261,9 @@ input[type="submit"] {
     
 }
 .fieldset__ventas{
-        
-        margin: 2rem;
-        gap: 1rem;
+        background-color: lightpink;
         text-align: center;
+        padding: 2rem;
 
 }
 section.Informacion {
@@ -282,22 +284,15 @@ section.Informaciondos {
     margin-left: 35%;
     margin-right: 35%;
 }
-.footer__equipo{
-    background-color: lightcoral;
-    padding: 1rem;
-    text-align: center;
-    }
 
-.footer__redes{
-    background-color: lightcoral;
-    padding: 1rem;
-    text-align: center;
+.imagen__contacto{
+    display: block;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 30%;
 }
-.footer__ventas{
-    background-color: lightcoral;
-    padding: 1rem;
-    text-align: center;
-}
+
 .parrafo__contacto{
     color: black;
     background-color: lightcoral;
@@ -324,13 +319,24 @@ section.Informaciondos {
     margin-right: 35%;
 }
 img.rounded.float-start{
-    width: 8%;
+    width: 5%;
 }
 img.rounded.float-end{
-    width: 8%;
+    width: 5%;
 }
 .imagen__delivery{
     width: 10%;
+    display: block;
+    align-items: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+img.Imagen__pad.aos-init.aos-animate{
+    width: 40%;
+display: block;
+margin-left: 35%;
+margin-right: 35%;
+padding: 2rem;
 }
 .ul__productos {
     margin-top: 0;
@@ -340,38 +346,62 @@ img.rounded.float-end{
     background-color: lightpink;
     padding: 0.5rem 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header__equipo{
     background-color: lightpink;
     padding: 0.5rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-box;
 }
 .header__productos{
     background-color: lightpink;
     padding: 0.5rem 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header__redes{
     background-color: lightpink;
     padding: 0.5rem 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header__ventas{
     background-color: lightpink;
     padding: 0.5rem 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header__logo__contacto{
 display: flex;
 justify-content: left;
+}
+.body__contacto{
+    background-color: lightpink;
+}
+.body__redes{
+    background-color: lightpink;
+}
+.Redes__cont{
+    display: flex;
+    align-items: center;
+}
+.body__ventas{
+    background-color: lightpink;
+}
+.parrafo__ventas{
+    text-align: center;
+}
+.logo__redesp{
+    width: 10%;
+    display: block;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.footer__ventas{
+    background-color: lightcoral;
+    padding: 1rem;
+    text-align: center;
+}
+.footer{
+    background-color: lightcoral;
 }

@@ -1,6 +1,13 @@
-section.hero {
-    background: lightpink;
-}
+.hero {
+        background: lightpink;
+        height: 50vh;
+        background-image: url(../img/img_portada.jpg);
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
 .hero_contenedor{
     color:black;
     font-size: 1.25rem;
