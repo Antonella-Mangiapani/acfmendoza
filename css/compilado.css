@@ -21,8 +21,14 @@
   .header li.header__item {
     display: inline-block; }
 
-section.hero {
-  background: lightpink; }
+.hero {
+  background: lightpink;
+  height: 50vh;
+  background-image: url(../img/img_portada.jpg);
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .hero_contenedor {
   color: black;
@@ -97,6 +103,9 @@ h4 {
 .body__ventas {
   background-color: lightpink; }
 
+.body__index {
+  background-color: lightpink; }
+
 .parrafo__productos {
   margin: 2rem;
   font-size: 1.10rem;
@@ -125,20 +134,13 @@ fieldset {
 .fieldset__ventas {
   flex-direction: column; }
 
-.footer__equipo {
-  background-color: lightcoral;
-  padding: 1rem;
-  text-align: center; }
-
-.footer__redes {
-  background-color: lightcoral;
-  padding: 1rem;
-  text-align: center; }
-
 .footer__ventas {
   background-color: lightcoral;
   padding: 1rem;
   text-align: center; }
+
+.footer {
+  background-color: lightcoral; }
 
 .imagen__ig {
   width: 5%; }

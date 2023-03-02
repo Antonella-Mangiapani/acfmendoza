@@ -405,3 +405,6 @@ justify-content: left;
 .footer{
     background-color: lightcoral;
 }
+.ul__contacto{
+display: flex;
+}
